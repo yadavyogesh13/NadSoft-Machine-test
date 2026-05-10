@@ -12,13 +12,16 @@ A professional Business Listing and Rating system built with Core PHP, MySQL, an
 - **Real-time UI**: Tables update dynamically without page refreshes.
 
 ## Setup Instructions
-1. **Database Setup**:
-    - Import the `db.sql` file into your MySQL database (e.g., using phpMyAdmin or the command line).
-    - By default, the system looks for a database named `business_listing` with user `root` and no password.
+1. **Clone Repository**:
+    - git clone https://github.com/yadavyogesh13/NadSoft-Machine-test.git
 
-2. **Project Deployment**:
+2. **Move Project**:
     - Place the project folder inside `xampp/htdocs/business-listing`
     - Ensure PHP is installed and running.
 
-3. **Access**:
+3. **Database Setup**:
+    - Import the `db.sql` file into your MySQL database (e.g., using phpMyAdmin or the command line).
+    - By default, the system looks for a database named `business_listing` with user `root` and no password.
+
+4. **Access**:
     - Open your browser and navigate to `http://localhost/business-listing`
