@@ -1,0 +1,109 @@
+:root {
+    --primary-color: #4361ee;
+    --secondary-color: #3f37c9;
+    --warning-color: #ffb703;
+    --bg-light: #f8f9fa;
+    --text-dark: #2b2d42;
+    --text-muted: #6c757d;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.card {
+    border-radius: 12px;
+    border: none;
+}
+
+.table thead th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    color: var(--text-muted);
+    padding: 1.2rem 1rem;
+}
+
+.table tbody td {
+    padding: 1.2rem 1rem;
+    font-size: 0.95rem;
+}
+
+.rating-display {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.rating-display:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.modal-content {
+    border-radius: 16px;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    border: 1px solid #dee2e6;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(67, 97, 238, 0.1);
+}
+
+/* Raty Styles */
+#raty-plugin {
+    white-space: nowrap;
+}
+
+#raty-plugin img {
+    width: 24px;
+    height: 24px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.raty-read-only {
+    display: inline-block;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.raty-read-only img {
+    width: 16px;
+    height: 16px;
+    margin: 0 1px;
+}
